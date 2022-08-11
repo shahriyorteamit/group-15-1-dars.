@@ -32,9 +32,71 @@
 
 // document.write(umumiyHisob);
 
-var name = 'shahriyor';
-name = 'shahriyor Xudoyorov';
+// var name = 'shahriyor';
+// name = 'shahriyor Xudoyorov';
 
-document.write(name);
+// document.write(name);
+
+// const name = 'SHahriyor';
+// // name = 'ism';
+
+// console.log(name);
+
+// var a = +prompt('birinchi raqamni yozing.'); // 3
+// var b = +prompt('ikkinchi raqamni yozing.'); // 2
+// var c = +prompt('ikkinchi raqamni yozing.'); // 2
 
 
+
+// if( a > b ){
+//     document.write(a + b);
+// }else if(a == b){
+//     document.write('sonlar teng')
+// }else if( a < b){
+//     document.write('a kichik b dan')
+// }
+// else{
+//     document.write(a * b);
+// }
+
+
+// var age = +prompt('yoshingiz neccida');
+// // var name = 'Shahriyor';
+
+// if( age <= 15 ){
+//     document.write('yoshingiz kichik');
+// }
+// else if(age <= 40){
+//     document.write('yoshingiz kotta')
+// }
+
+
+// var ju = +prompt('2-jahon urushi qachon boshlanga');
+
+
+// if(isNaN(ju)) {
+//     document.write('harif emas son yozing')
+// }
+// else if( ju > 1941){
+//     document.write('urush tugadi Gitler oldi')
+// }else if( ju < 1941){
+//     document.write('urush hali boshlanmadi')
+// }else{
+//     document.write('topdingiz')
+// }
+
+
+var a = +prompt('birinchi raqamni kiriting'); // 4
+var b = +prompt('ikkinchi raqamni kiriting'); // 7
+var c = +prompt('uchunchi raqamni kiriting'); // 2 
+var res;
+
+if(a > b &&  a > c){
+    res = a + ' a bu eng kotta raqam'
+}else if(b > a && b > c){
+    res = b + ' b bu eng kotta raqam';
+}else {
+    res = c + ' c bu eng kotta raqam'
+}
+
+document.write(res);
